@@ -1,0 +1,16 @@
+PODS:
+  - VPCustomAlertView (0.1.0)
+
+DEPENDENCIES:
+  - VPCustomAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  VPCustomAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VPCustomAlertView: 5e3b03d0988cf3b57dd82293cd6f36e65a1a93eb
+
+PODFILE CHECKSUM: 98091b5cd63728ef231f777862fb649c13e44378
+
+COCOAPODS: 1.9.3
