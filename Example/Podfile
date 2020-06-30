@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VPCustomAlertView_Example' do
+  pod 'VPCustomAlertView', :path => '../'
+
+  target 'VPCustomAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
