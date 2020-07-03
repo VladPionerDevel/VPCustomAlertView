@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VPCustomAlertView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Create custom alert View.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Creating your own pretti and functional Alert View
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pionerdevel@gmail.com' => 'vladpionerdevel@gmail.com' }
-  s.source           = { :git => 'https://github.com/VladPionerDevel/VPCustomAlertView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/VladPionerDevel/VPCustomAlertView.git', :tag => '1.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
