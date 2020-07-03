@@ -74,7 +74,6 @@ class SimpleAlertViewController: UIViewController {
         customAlertView.backgroundBlurStyle = .none
     }
     
-
     @IBAction func ShowTaped(_ sender: UIButton) {
         customAlertView.show()
     }
@@ -114,7 +113,6 @@ class AlertActionAnimateViewController: UIViewController {
         }
     }
     
-
     @IBAction func showTapped(_ sender: UIButton) {
         customAlertView.show(animate: .popapFromBottom)
     }
@@ -156,7 +154,6 @@ class AlertFromRightViewController: UIViewController {
         }
     }
     
-
     @IBAction func showTapped(_ sender: Any) {
         customAlertView.show(animate: .popapFromRight)
         customAlertView.layer.cornerRadius = 0
@@ -237,16 +234,29 @@ class FromLeftToRightViewController: UIViewController {
         }
     }
     
-
     @IBAction func fromLeftTapped(_ sender: UIButton) {
         customAlertView.show(animate: .popapFromLeft)
     }
-    
     
     @IBAction func fromTopTapped(_ sender: UIButton) {
         customAlertView.show(animate: .popapFromTop)
     }
     
 }
+```
+
+## Settings
+```Swift
+customAlertView.parentView = self.view // одительский контейнер UIView задается при создании объекта VPCustomAlertView первым параметром
+customAlertView.title = "Title"
+customAlertView.message = "Message"
+customAlertView.isShadow = true // будет ли у алерта тень
+customAlertView.isBorder = true // будет ли у алерта border
+customAlertView.backgroundBlurStyle = .dark // тип UIBlurEffect.Style? стиль заднего розмытого фона
+customAlertView.isHideTapBlurBackground = true // будет ли проподать алерт при клике по заднему размытому фону
+customAlertView.isAnchorTopToSafeArea = true // требуется если алерт до самого верха экрана чтобы елеметы алерта не перекрывались элементами интерфейса телефона
+customAlertView.isAnchorBottomToSafeArea = true // требуется если алерт до самого низа экрана чтобы елеметы алерта не перекрывались элементами интерфейса телефона
+
+customAlertView.buttons // массив кнопок влерта, если были добавлены actions (кнопки)
 ```
 
