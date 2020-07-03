@@ -1,5 +1,5 @@
 PODS:
-  - VPCustomAlertView (0.1.0)
+  - VPCustomAlertView (1.0.0)
 
 DEPENDENCIES:
   - VPCustomAlertView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VPCustomAlertView: 5e3b03d0988cf3b57dd82293cd6f36e65a1a93eb
+  VPCustomAlertView: c1ab9294d2cead422fbb80532f4efce9c6ccfd4a
 
 PODFILE CHECKSUM: 98091b5cd63728ef231f777862fb649c13e44378
 

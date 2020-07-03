@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AB9CBE73FE1779C30CA707E50C6FD0 /* VPAlertConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677E53D83142122B7C99B33093A054F /* VPAlertConstraints.swift */; };
 		1C6092E68C013A3E4E918EB7FD0DFAC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2A8C09C0985232735CA18B6FDDA9660A /* VPCustomAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD35B75682743C3AF980A74B2F0A82CB /* VPCustomAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3384BAF619F35F4DF41B28B680295061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4972FFB0437ADE82BA116249DC0BC631 /* Pods-VPCustomAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69046546A99FB4F241F09FF409AA21D3 /* Pods-VPCustomAlertView_Example-dummy.m */; };
-		5CF24106485AFAA69AB1BE04AFB33A67 /* VPCustomAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D74D3F01EB4480731F1082E29E6C79D3 /* VPCustomAlertView-dummy.m */; };
-		6A0DC25D014F967A19D80F5BB398FF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5281143118AE143B3A0E2AADF6A50774 /* VPAlertConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D3DA991F462F0396B2A824F06397E /* VPAlertConstants.swift */; };
+		557F0348893543B0A804171E1FF69602 /* VPBackgroundBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB324A3355B34C412D90CA1103401F89 /* VPBackgroundBlur.swift */; };
+		8BD099F06AAC1E0D488BB89CACC7BF20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9860658C7F2494C65C9F00BDBF641D7E /* Pods-VPCustomAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A3C5B09F2A3D920F17C14B01024CC /* Pods-VPCustomAlertView_Tests-dummy.m */; };
 		B782B01972FC7685F805D30B62F97496 /* Pods-VPCustomAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B99A3F272A5985C50FAEA1B9828FEF01 /* Pods-VPCustomAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4FE787B9A069897B0138F32008280B /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC0E8E2F46EE3BEA2A62D310FB999C /* ExtensionUIView.swift */; };
+		BCE9CA081339103ECEF8EDB8C0F6DE60 /* VPCustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034DADEB788C42374376EDF75F7F044 /* VPCustomAlertView.swift */; };
+		BE1A30A44D508FE69D6036739396953B /* VPAlertAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA568AC49F14C20B2151A38E336DF066 /* VPAlertAnimate.swift */; };
 		CA7E8D5B9EB478355CF7FE6ADA6AA192 /* Pods-VPCustomAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C4F7FC7EA40A769AEA9FB17002E1E7 /* Pods-VPCustomAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2CD740124AB65C4005C951D /* VPAlertConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD73FB24AB65C4005C951D /* VPAlertConstraints.swift */; };
-		D2CD740224AB65C4005C951D /* VPAlertConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD73FC24AB65C4005C951D /* VPAlertConstants.swift */; };
-		D2CD740324AB65C4005C951D /* VPBackgroundBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD73FD24AB65C4005C951D /* VPBackgroundBlur.swift */; };
-		D2CD740424AB65C4005C951D /* VPCustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD73FE24AB65C4005C951D /* VPCustomAlertView.swift */; };
-		D2CD740524AB65C4005C951D /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD73FF24AB65C4005C951D /* ExtensionUIView.swift */; };
-		D2CD740624AB65C4005C951D /* VPAlertAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740024AB65C4005C951D /* VPAlertAnimate.swift */; };
+		D8F7A5BC0CB2E5704E94D08781ADEF18 /* VPCustomAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1069D288DBA2811F4C5CFAB759558DA7 /* VPCustomAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF696B865A4D2A09909D3AD14216EF20 /* VPCustomAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E8F41FF007C234CE18C5A8168A66FC /* VPCustomAlertView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,44 +42,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0034DADEB788C42374376EDF75F7F044 /* VPCustomAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPCustomAlertView.swift; path = VPCustomAlertView/Classes/VPCustomAlertView.swift; sourceTree = "<group>"; };
 		01B955EF837376B8A674EB270B1BDA54 /* Pods-VPCustomAlertView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPCustomAlertView_Tests-Info.plist"; sourceTree = "<group>"; };
+		055D3DA991F462F0396B2A824F06397E /* VPAlertConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertConstants.swift; path = VPCustomAlertView/Classes/VPAlertConstants.swift; sourceTree = "<group>"; };
+		1069D288DBA2811F4C5CFAB759558DA7 /* VPCustomAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-umbrella.h"; sourceTree = "<group>"; };
+		15E92BD6724ABCFA2A821FF8E7999B17 /* VPCustomAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-prefix.pch"; sourceTree = "<group>"; };
 		1CB28CFF607FAC5A9C496EBC991F8F16 /* Pods-VPCustomAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPCustomAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1EFE2B6EC40A76F015D596AE2538A07E /* Pods-VPCustomAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPCustomAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		20E8F41FF007C234CE18C5A8168A66FC /* VPCustomAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPCustomAlertView-dummy.m"; sourceTree = "<group>"; };
 		25B2068F1DD42552DC73A210210B7269 /* Pods-VPCustomAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPCustomAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		288A64268C3A4373C84233A92DA21144 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2ED5F9F57A4B9C0EE53D2F63219CF78D /* VPCustomAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPCustomAlertView.modulemap; sourceTree = "<group>"; };
+		2677E53D83142122B7C99B33093A054F /* VPAlertConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertConstraints.swift; path = VPCustomAlertView/Classes/VPAlertConstraints.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		349596EE4F26D81161CB43BE0AAF0D44 /* Pods-VPCustomAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VPCustomAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		3EA79295FFFC01F457471E6125A7CB0E /* Pods-VPCustomAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPCustomAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A27B2A0AE77251D76302005D3D7FABB /* Pods_VPCustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPCustomAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3371DE9A707620DA826538716A043A /* VPCustomAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-prefix.pch"; sourceTree = "<group>"; };
-		5F923A7DE610CDB652D0832DB3DFFC65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4D355E150670CBFAE589AD3030D71F50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64C4F7FC7EA40A769AEA9FB17002E1E7 /* Pods-VPCustomAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPCustomAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
 		69046546A99FB4F241F09FF409AA21D3 /* Pods-VPCustomAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPCustomAlertView_Example-dummy.m"; sourceTree = "<group>"; };
 		6B1A3C5B09F2A3D920F17C14B01024CC /* Pods-VPCustomAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPCustomAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
+		6BA037015E0A2375D4CD452EB2AE24D9 /* VPCustomAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPCustomAlertView.modulemap; sourceTree = "<group>"; };
 		6EA168FCABB7358D95396AC81EE4FFCA /* Pods-VPCustomAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPCustomAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7989A95577F60D251A649FBE01063F15 /* VPCustomAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.debug.xcconfig; sourceTree = "<group>"; };
-		852CC22F13E9C39E61F8064119023EF1 /* VPCustomAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VPCustomAlertView-Info.plist"; sourceTree = "<group>"; };
 		908004DE05AFBC8BA502F8E8D74378FC /* Pods-VPCustomAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPCustomAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAC0E8E2F46EE3BEA2A62D310FB999C /* ExtensionUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionUIView.swift; path = VPCustomAlertView/Classes/ExtensionUIView.swift; sourceTree = "<group>"; };
+		A26EE12168D0CC8E299C0EC291085DE9 /* VPCustomAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.debug.xcconfig; sourceTree = "<group>"; };
 		A29780FA5D7649E68C4A61647FE32527 /* Pods-VPCustomAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VPCustomAlertView_Tests.modulemap"; sourceTree = "<group>"; };
 		A49EA676258B89725971C89C8CA55021 /* Pods_VPCustomAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPCustomAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD35B75682743C3AF980A74B2F0A82CB /* VPCustomAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-umbrella.h"; sourceTree = "<group>"; };
+		A84C49FC3DD9F6EC5D9FD4F52510BDE4 /* VPCustomAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VPCustomAlertView-Info.plist"; sourceTree = "<group>"; };
+		AA953E45191767D7C40319E8562DE4DB /* VPCustomAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VPCustomAlertView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4A430AACB5E6FE9AC61AD6695FDF4D7 /* Pods-VPCustomAlertView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPCustomAlertView_Example-Info.plist"; sourceTree = "<group>"; };
 		B99A3F272A5985C50FAEA1B9828FEF01 /* Pods-VPCustomAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPCustomAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C1657EE783CEEBFDB9348D66E26F4BC7 /* Pods-VPCustomAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPCustomAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C9DCC1C7A09CD45B171E30ACFEA37DD8 /* VPCustomAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VPCustomAlertView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D2CD73FB24AB65C4005C951D /* VPAlertConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPAlertConstraints.swift; path = VPCustomAlertView/Classes/VPAlertConstraints.swift; sourceTree = "<group>"; };
-		D2CD73FC24AB65C4005C951D /* VPAlertConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPAlertConstants.swift; path = VPCustomAlertView/Classes/VPAlertConstants.swift; sourceTree = "<group>"; };
-		D2CD73FD24AB65C4005C951D /* VPBackgroundBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPBackgroundBlur.swift; path = VPCustomAlertView/Classes/VPBackgroundBlur.swift; sourceTree = "<group>"; };
-		D2CD73FE24AB65C4005C951D /* VPCustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPCustomAlertView.swift; path = VPCustomAlertView/Classes/VPCustomAlertView.swift; sourceTree = "<group>"; };
-		D2CD73FF24AB65C4005C951D /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIView.swift; path = VPCustomAlertView/Classes/ExtensionUIView.swift; sourceTree = "<group>"; };
-		D2CD740024AB65C4005C951D /* VPAlertAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPAlertAnimate.swift; path = VPCustomAlertView/Classes/VPAlertAnimate.swift; sourceTree = "<group>"; };
-		D74D3F01EB4480731F1082E29E6C79D3 /* VPCustomAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPCustomAlertView-dummy.m"; sourceTree = "<group>"; };
+		CA568AC49F14C20B2151A38E336DF066 /* VPAlertAnimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertAnimate.swift; path = VPCustomAlertView/Classes/VPAlertAnimate.swift; sourceTree = "<group>"; };
+		CB324A3355B34C412D90CA1103401F89 /* VPBackgroundBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPBackgroundBlur.swift; path = VPCustomAlertView/Classes/VPBackgroundBlur.swift; sourceTree = "<group>"; };
 		D7727D931FD033C366ABFB45D2BD9763 /* Pods-VPCustomAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPCustomAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1A08181BAE6FB0ED9BB83DFDA83DFAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EB8C1294BFD9F8192AEAE41292488B8D /* VPCustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.release.xcconfig; sourceTree = "<group>"; };
 		EF67899410139DBFEED1678C99C35567 /* VPCustomAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VPCustomAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1918B22FBDD688E84F22F5A049ED0DD /* Pods-VPCustomAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPCustomAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F4E3D4F4DADB3059B32DFCCA911037D2 /* VPCustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,19 +91,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		843B7C7C11185358C3F2CCAEC6AE0E3C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A0DC25D014F967A19D80F5BB398FF9A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CF1462DE5909022FC3A62ABEF6A24C4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3384BAF619F35F4DF41B28B680295061 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B4F2E51406C093B5BC001CB4053D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD099F06AAC1E0D488BB89CACC7BF20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +119,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		471C2D75E15BDF9AD58670721EF85989 /* Development Pods */ = {
+		32AECBFA492B189A31A6F60BD334D2CE /* VPCustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				9C1449BE2ACC8570476990EC6016CAAA /* VPCustomAlertView */,
+				0034DADEB788C42374376EDF75F7F044 /* VPCustomAlertView.swift */,
+				9EAC0E8E2F46EE3BEA2A62D310FB999C /* ExtensionUIView.swift */,
+				CA568AC49F14C20B2151A38E336DF066 /* VPAlertAnimate.swift */,
+				055D3DA991F462F0396B2A824F06397E /* VPAlertConstants.swift */,
+				2677E53D83142122B7C99B33093A054F /* VPAlertConstraints.swift */,
+				CB324A3355B34C412D90CA1103401F89 /* VPBackgroundBlur.swift */,
+				4D2381DBED8B88530EFA80DAE7BB35ED /* Pod */,
+				C32966C03EC16ECEECCD55BABEB5F903 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = VPCustomAlertView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4D2381DBED8B88530EFA80DAE7BB35ED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E1A08181BAE6FB0ED9BB83DFDA83DFAF /* LICENSE */,
+				4D355E150670CBFAE589AD3030D71F50 /* README.md */,
+				AA953E45191767D7C40319E8562DE4DB /* VPCustomAlertView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5A50A6C1538CCFA974E210C53C3A6CAB /* Pods-VPCustomAlertView_Example */ = {
@@ -142,31 +160,6 @@
 			);
 			name = "Pods-VPCustomAlertView_Example";
 			path = "Target Support Files/Pods-VPCustomAlertView_Example";
-			sourceTree = "<group>";
-		};
-		6C9AC451A30A0FEEFFE515FE2E79BE3E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2ED5F9F57A4B9C0EE53D2F63219CF78D /* VPCustomAlertView.modulemap */,
-				D74D3F01EB4480731F1082E29E6C79D3 /* VPCustomAlertView-dummy.m */,
-				852CC22F13E9C39E61F8064119023EF1 /* VPCustomAlertView-Info.plist */,
-				5E3371DE9A707620DA826538716A043A /* VPCustomAlertView-prefix.pch */,
-				AD35B75682743C3AF980A74B2F0A82CB /* VPCustomAlertView-umbrella.h */,
-				7989A95577F60D251A649FBE01063F15 /* VPCustomAlertView.debug.xcconfig */,
-				F4E3D4F4DADB3059B32DFCCA911037D2 /* VPCustomAlertView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VPCustomAlertView";
-			sourceTree = "<group>";
-		};
-		7FCDE592A8C2CCA191A20DA74F25B641 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				288A64268C3A4373C84233A92DA21144 /* LICENSE */,
-				5F923A7DE610CDB652D0832DB3DFFC65 /* README.md */,
-				C9DCC1C7A09CD45B171E30ACFEA37DD8 /* VPCustomAlertView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9860FE3626B05BB49AF720A5048CA2AB /* Pods-VPCustomAlertView_Tests */ = {
@@ -195,22 +188,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C1449BE2ACC8570476990EC6016CAAA /* VPCustomAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				D2CD73FF24AB65C4005C951D /* ExtensionUIView.swift */,
-				D2CD740024AB65C4005C951D /* VPAlertAnimate.swift */,
-				D2CD73FC24AB65C4005C951D /* VPAlertConstants.swift */,
-				D2CD73FB24AB65C4005C951D /* VPAlertConstraints.swift */,
-				D2CD73FD24AB65C4005C951D /* VPBackgroundBlur.swift */,
-				D2CD73FE24AB65C4005C951D /* VPCustomAlertView.swift */,
-				7FCDE592A8C2CCA191A20DA74F25B641 /* Pod */,
-				6C9AC451A30A0FEEFFE515FE2E79BE3E /* Support Files */,
-			);
-			name = VPCustomAlertView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,11 +196,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C32966C03EC16ECEECCD55BABEB5F903 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BA037015E0A2375D4CD452EB2AE24D9 /* VPCustomAlertView.modulemap */,
+				20E8F41FF007C234CE18C5A8168A66FC /* VPCustomAlertView-dummy.m */,
+				A84C49FC3DD9F6EC5D9FD4F52510BDE4 /* VPCustomAlertView-Info.plist */,
+				15E92BD6724ABCFA2A821FF8E7999B17 /* VPCustomAlertView-prefix.pch */,
+				1069D288DBA2811F4C5CFAB759558DA7 /* VPCustomAlertView-umbrella.h */,
+				A26EE12168D0CC8E299C0EC291085DE9 /* VPCustomAlertView.debug.xcconfig */,
+				EB8C1294BFD9F8192AEAE41292488B8D /* VPCustomAlertView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VPCustomAlertView";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				471C2D75E15BDF9AD58670721EF85989 /* Development Pods */,
+				F0F22953DFD989E1F43832C2AD2DD4A4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9BEF50CE79B9A292BC3AF768D3C4793E /* Products */,
 				1E4086A4EDAA50610A37E540983E2427 /* Targets Support Files */,
@@ -238,22 +230,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F0F22953DFD989E1F43832C2AD2DD4A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32AECBFA492B189A31A6F60BD334D2CE /* VPCustomAlertView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A14B6C02E0E167B7787E5748F9A35FC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A8C09C0985232735CA18B6FDDA9660A /* VPCustomAlertView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D5661F027272A7916F526368F6E449C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CA7E8D5B9EB478355CF7FE6ADA6AA192 /* Pods-VPCustomAlertView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B97D12C01377AA341BD09CA10E912B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F7A5BC0CB2E5704E94D08781ADEF18 /* VPCustomAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +289,12 @@
 		};
 		9546C624609E36B9159C36A54449D16B /* VPCustomAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 815A1E8590F467D30A39F070143B80E0 /* Build configuration list for PBXNativeTarget "VPCustomAlertView" */;
+			buildConfigurationList = 13181FE6D7F0EC2479710E8395FB1E38 /* Build configuration list for PBXNativeTarget "VPCustomAlertView" */;
 			buildPhases = (
-				0A14B6C02E0E167B7787E5748F9A35FC /* Headers */,
-				732CDEB659C57C4E535A0D4519411B42 /* Sources */,
-				843B7C7C11185358C3F2CCAEC6AE0E3C /* Frameworks */,
-				8424604E4210642A1A01C789FAD57CD3 /* Resources */,
+				D5B97D12C01377AA341BD09CA10E912B /* Headers */,
+				A80CEA84CD448A67A26FF85F7EF08293 /* Sources */,
+				F7B4F2E51406C093B5BC001CB4053D40 /* Frameworks */,
+				C9AA78318E61472793A8D9E9DAD217BE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -332,11 +332,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					F25142901CEFB3897475C2892EE0366A = {
-						LastSwiftMigration = 1140;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,14 +354,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8424604E4210642A1A01C789FAD57CD3 /* Resources */ = {
+		C47DF27F82E729912329290E39796D16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C47DF27F82E729912329290E39796D16 /* Resources */ = {
+		C9AA78318E61472793A8D9E9DAD217BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,21 +382,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CD740524AB65C4005C951D /* ExtensionUIView.swift in Sources */,
-				D2CD740324AB65C4005C951D /* VPBackgroundBlur.swift in Sources */,
 				4972FFB0437ADE82BA116249DC0BC631 /* Pods-VPCustomAlertView_Example-dummy.m in Sources */,
-				D2CD740224AB65C4005C951D /* VPAlertConstants.swift in Sources */,
-				D2CD740124AB65C4005C951D /* VPAlertConstraints.swift in Sources */,
-				D2CD740624AB65C4005C951D /* VPAlertAnimate.swift in Sources */,
-				D2CD740424AB65C4005C951D /* VPCustomAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		732CDEB659C57C4E535A0D4519411B42 /* Sources */ = {
+		A80CEA84CD448A67A26FF85F7EF08293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CF24106485AFAA69AB1BE04AFB33A67 /* VPCustomAlertView-dummy.m in Sources */,
+				BA4FE787B9A069897B0138F32008280B /* ExtensionUIView.swift in Sources */,
+				BE1A30A44D508FE69D6036739396953B /* VPAlertAnimate.swift in Sources */,
+				5281143118AE143B3A0E2AADF6A50774 /* VPAlertConstants.swift in Sources */,
+				03AB9CBE73FE1779C30CA707E50C6FD0 /* VPAlertConstraints.swift in Sources */,
+				557F0348893543B0A804171E1FF69602 /* VPBackgroundBlur.swift in Sources */,
+				EF696B865A4D2A09909D3AD14216EF20 /* VPCustomAlertView-dummy.m in Sources */,
+				BCE9CA081339103ECEF8EDB8C0F6DE60 /* VPCustomAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +459,38 @@
 			};
 			name = Debug;
 		};
+		13E139EA7AEC8AB5E2C4C108ABC48F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8C1294BFD9F8192AEAE41292488B8D /* VPCustomAlertView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VPCustomAlertView/VPCustomAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView.modulemap";
+				PRODUCT_MODULE_NAME = VPCustomAlertView;
+				PRODUCT_NAME = VPCustomAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4B3C7F4E868A5269777B9B383F429503 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CB28CFF607FAC5A9C496EBC991F8F16 /* Pods-VPCustomAlertView_Tests.release.xcconfig */;
@@ -503,7 +530,6 @@
 			baseConfigurationReference = 6EA168FCABB7358D95396AC81EE4FFCA /* Pods-VPCustomAlertView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -526,76 +552,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A697F5FEC7379BD103B36BB908C2F23A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7989A95577F60D251A649FBE01063F15 /* VPCustomAlertView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VPCustomAlertView/VPCustomAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView.modulemap";
-				PRODUCT_MODULE_NAME = VPCustomAlertView;
-				PRODUCT_NAME = VPCustomAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ABCB625E3E1B64C102EFBF628FA73897 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4E3D4F4DADB3059B32DFCCA911037D2 /* VPCustomAlertView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VPCustomAlertView/VPCustomAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView.modulemap";
-				PRODUCT_MODULE_NAME = VPCustomAlertView;
-				PRODUCT_NAME = VPCustomAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -725,7 +686,6 @@
 			baseConfigurationReference = 25B2068F1DD42552DC73A210210B7269 /* Pods-VPCustomAlertView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -748,7 +708,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -756,9 +715,49 @@
 			};
 			name = Release;
 		};
+		F7085BF746A490A8E3B9CFAB731AF61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26EE12168D0CC8E299C0EC291085DE9 /* VPCustomAlertView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VPCustomAlertView/VPCustomAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPCustomAlertView/VPCustomAlertView.modulemap";
+				PRODUCT_MODULE_NAME = VPCustomAlertView;
+				PRODUCT_NAME = VPCustomAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13181FE6D7F0EC2479710E8395FB1E38 /* Build configuration list for PBXNativeTarget "VPCustomAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7085BF746A490A8E3B9CFAB731AF61A /* Debug */,
+				13E139EA7AEC8AB5E2C4C108ABC48F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -773,15 +772,6 @@
 			buildConfigurations = (
 				0FBBD6F5028C0C1F40B322AB6098E62D /* Debug */,
 				4B3C7F4E868A5269777B9B383F429503 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		815A1E8590F467D30A39F070143B80E0 /* Build configuration list for PBXNativeTarget "VPCustomAlertView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A697F5FEC7379BD103B36BB908C2F23A /* Debug */,
-				ABCB625E3E1B64C102EFBF628FA73897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

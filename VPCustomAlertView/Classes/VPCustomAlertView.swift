@@ -1,10 +1,10 @@
 import UIKit
 
+@available(iOS 11.0, *)
 open class VPCustomAlertView: UIView, BlurBackgroundTapDelegat {
     
     public var parentView: UIView
     public var title: String? = nil
-    public var titleLabelHeight: CGFloat? = VPAlertConstants.titleLabelHeight
     public var message: String? = nil
     public var isShadow = true
     public var isBorder = true
@@ -109,7 +109,7 @@ open class VPCustomAlertView: UIView, BlurBackgroundTapDelegat {
     // MARK: Continer Content
     
     private func setContainerContent(){
-        if title != nil { return }
+        if message != nil { return }
         
         self.addSubview(containerContent)
         containerContent.translatesAutoresizingMaskIntoConstraints = false
@@ -156,12 +156,9 @@ open class VPCustomAlertView: UIView, BlurBackgroundTapDelegat {
         titleLabel!.textAlignment = .center
         self.addSubview(titleLabel!)
         titleLabel!.translatesAutoresizingMaskIntoConstraints = false
-        if let titleLabelHeight = titleLabelHeight {
-            titleLabel!.heightAnchor.constraint(equalToConstant: titleLabelHeight).isActive = true
-        }
-        titleLabel!.topAnchor.constraint(equalTo: topAnchor()).isActive = true
-        titleLabel!.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-        titleLabel!.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
+        titleLabel?.topAnchor.constraint(equalTo: topAnchor(), constant: VPAlertConstants.titleIndentation).isActive = true
+        titleLabel!.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: VPAlertConstants.titleIndentation).isActive = true
+        titleLabel!.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -VPAlertConstants.titleIndentation).isActive = true
     }
     
     // MARK: message
@@ -182,14 +179,14 @@ open class VPCustomAlertView: UIView, BlurBackgroundTapDelegat {
         messageLabel!.translatesAutoresizingMaskIntoConstraints = false
         
         if title == nil {
-            messageLabel!.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+            messageLabel!.topAnchor.constraint(equalTo: self.topAnchor, constant: VPAlertConstants.messageIndentation).isActive = true
         } else {
             if let titleLabel = titleLabel {
-                messageLabel!.topAnchor.constraint(equalTo: titleLabel.bottomAnchor).isActive = true
+                messageLabel!.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: VPAlertConstants.messageIndentation).isActive = true
             }
         }
-        messageLabel!.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-        messageLabel!.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
+        messageLabel!.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: VPAlertConstants.messageIndentation).isActive = true
+        messageLabel!.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -VPAlertConstants.messageIndentation).isActive = true
     }
     
     // MARK: ACTIONS

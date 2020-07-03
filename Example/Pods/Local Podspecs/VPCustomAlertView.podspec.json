@@ -1,9 +1,9 @@
 {
   "name": "VPCustomAlertView",
-  "version": "0.1.0",
-  "summary": "A short description of VPCustomAlertView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/pionerdevel@gmail.com/VPCustomAlertView",
+  "version": "1.0.0",
+  "summary": "Create custom alert View.",
+  "description": "Create custom alert View.\nCreating your own pretti and functional Alert View",
+  "homepage": "https://github.com/VladPionerDevel/VPCustomAlertView.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "pionerdevel@gmail.com": "vladpionerdevel@gmail.com"
   },
   "source": {
-    "git": "https://github.com/pionerdevel@gmail.com/VPCustomAlertView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/VladPionerDevel/VPCustomAlertView.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "VPCustomAlertView/Classes/**/*"
+  "source_files": "VPCustomAlertView/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

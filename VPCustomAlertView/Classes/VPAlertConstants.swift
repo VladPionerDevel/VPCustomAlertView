@@ -21,14 +21,15 @@ struct VPAlertConstants {
     
     // border
     static let borderWidth: CGFloat = 1
-    static let borderColor = UIColor.systemGray4.cgColor
+    static let borderColor = UIColor.systemGray.cgColor
     
     // titleLabel
     static let titleFontSize: CGFloat = 24
-    static let titleLabelHeight: CGFloat = 50
+    static let titleIndentation: CGFloat = 10
     
     // messageLabel
     static let messageFontSize: CGFloat = 18
+    static let messageIndentation: CGFloat = 10
     
     // deffault size
     static let widthDefault: CGFloat = 250

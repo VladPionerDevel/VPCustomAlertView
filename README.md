@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* iOS11
 
 ## Installation
 
@@ -20,9 +21,34 @@ it, simply add the following line to your Podfile:
 pod 'VPCustomAlertView'
 ```
 
+## Usage
+
+```Swift
+import VPCustomAlertView
+
+var customAlertView: VPCustomAlertView!
+    
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    customAlertView = VPCustomAlertView(parentView: view)
+    customAlertView.addTitle(title: "Title")
+    customAlertView.addMessage(message: "Message")
+}
+
+@IBAction func ShowTaped(_ sender: UIButton) {
+    customAlertView.show()
+}
+
+@IBAction func HideTspped(_ sender: Any) {
+    customAlertView.hide()
+}
+
+```
+
 ## Author
 
-pionerdevel@gmail.com, vladpionerdevel@gmail.com
+VladPioner
 
 ## License
 
