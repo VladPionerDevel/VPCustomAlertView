@@ -54,4 +54,34 @@ VPCustomAlertView is available under the MIT license. See the LICENSE file for m
 
 ## Examples 1
 
-<img src="https://raw.githubusercontent.com/VladPionerDevel/VPCustomAlertView/master/VPCustomAlertView/Assets/Screenshots/simpleActionAnimate.gif" alt="simple" style="width:200px;">
+![alt tag](https://raw.githubusercontent.com/VladPionerDevel/VPCustomAlertView/master/VPCustomAlertView/Assets/Screenshots/simple.gif "simple")​
+
+Code:
+```Swift
+import VPCustomAlertView
+
+@available(iOS 11.0, *)
+class SimpleAlertViewController: UIViewController {
+
+    var customAlertView: VPCustomAlertView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        customAlertView = VPCustomAlertView(parentView: view)
+        customAlertView.addTitle(title: "Simple Alert View")
+        customAlertView.addMessage(message: "My Super Message for Custom Alert View")
+        customAlertView.backgroundBlurStyle = .none
+    }
+    
+
+    @IBAction func ShowTaped(_ sender: UIButton) {
+        customAlertView.show()
+    }
+    
+    @IBAction func HideTspped(_ sender: Any) {
+        customAlertView.hide()
+    }
+    
+}
+```
