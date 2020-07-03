@@ -247,16 +247,16 @@ class FromLeftToRightViewController: UIViewController {
 
 ## Settings
 ```Swift
-customAlertView.parentView = self.view // одительский контейнер UIView задается при создании объекта VPCustomAlertView первым параметром
+customAlertView.parentView = self.view // родительский контейнер UIView задается при создании объекта VPCustomAlertView первым параметром
 customAlertView.title = "Title"
 customAlertView.message = "Message"
-customAlertView.isShadow = true // будет ли у алерта тень
-customAlertView.isBorder = true // будет ли у алерта border
-customAlertView.backgroundBlurStyle = .dark // тип UIBlurEffect.Style? стиль заднего розмытого фона
-customAlertView.isHideTapBlurBackground = true // будет ли проподать алерт при клике по заднему размытому фону
-customAlertView.isAnchorTopToSafeArea = true // требуется если алерт до самого верха экрана чтобы елеметы алерта не перекрывались элементами интерфейса телефона
-customAlertView.isAnchorBottomToSafeArea = true // требуется если алерт до самого низа экрана чтобы елеметы алерта не перекрывались элементами интерфейса телефона
+customAlertView.isShadow = true // будет ли у alert тень
+customAlertView.isBorder = true // будет ли у alert border
+customAlertView.backgroundBlurStyle = .dark // тип UIBlurEffect.Style? стиль заднего размытого фона
+customAlertView.isHideTapBlurBackground = true // будет ли пропадать alert при клике по заднему размытому фону
+customAlertView.isAnchorTopToSafeArea = true // требуется если alert до самого верха экрана чтобы элементы alert не перекрывались элементами интерфейса телефона
+customAlertView.isAnchorBottomToSafeArea = true // требуется если alert до самого низа экрана чтобы элементы alert не перекрывались элементами интерфейса телефона
 
-customAlertView.buttons // массив кнопок влерта, если были добавлены actions (кнопки)
+customAlertView.buttons // массив кнопок alert, если были добавлены actions (кнопки)
 ```
 
