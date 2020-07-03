@@ -54,4 +54,4 @@ VPCustomAlertView is available under the MIT license. See the LICENSE file for m
 
 ## Examples 1
 
-![alt tag](https://raw.githubusercontent.com/VladPionerDevel/VPCustomAlertView/master/VPCustomAlertView/Assets/Screenshots/simpleActionAnimate.gif "simple")​
+<img src="https://raw.githubusercontent.com/VladPionerDevel/VPCustomAlertView/master/VPCustomAlertView/Assets/Screenshots/simpleActionAnimate.gif" alt="simple" style="width:200px;">
