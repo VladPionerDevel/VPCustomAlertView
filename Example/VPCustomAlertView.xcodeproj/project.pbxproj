@@ -17,7 +17,7 @@
 		D2CD740824AC83BF005C951D /* SimpleAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740724AC83BF005C951D /* SimpleAlertViewController.swift */; };
 		D2CD740A24AC9030005C951D /* AlertActionAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740924AC9030005C951D /* AlertActionAnimateViewController.swift */; };
 		D2CD740C24ACA36C005C951D /* AlertFromRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740B24ACA36C005C951D /* AlertFromRightViewController.swift */; };
-		D2CD740E24ACB182005C951D /* AlertFromBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740D24ACB182005C951D /* AlertFromBottomViewController.swift */; };
+		D2CD740E24ACB182005C951D /* AlertFromTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740D24ACB182005C951D /* AlertFromTopViewController.swift */; };
 		D2CD741024ACB811005C951D /* FromLeftToRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740F24ACB811005C951D /* FromLeftToRightViewController.swift */; };
 		F10A6ADDDD9574CC8F76B1DA /* Pods_VPCustomAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEE58F592BD2441B6EDB502 /* Pods_VPCustomAlertView_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -52,7 +52,7 @@
 		D2CD740724AC83BF005C951D /* SimpleAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlertViewController.swift; sourceTree = "<group>"; };
 		D2CD740924AC9030005C951D /* AlertActionAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionAnimateViewController.swift; sourceTree = "<group>"; };
 		D2CD740B24ACA36C005C951D /* AlertFromRightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFromRightViewController.swift; sourceTree = "<group>"; };
-		D2CD740D24ACB182005C951D /* AlertFromBottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFromBottomViewController.swift; sourceTree = "<group>"; };
+		D2CD740D24ACB182005C951D /* AlertFromTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFromTopViewController.swift; sourceTree = "<group>"; };
 		D2CD740F24ACB811005C951D /* FromLeftToRightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromLeftToRightViewController.swift; sourceTree = "<group>"; };
 		EDEE58F592BD2441B6EDB502 /* Pods_VPCustomAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPCustomAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F593B0FEF1B93336AB7EDD22 /* Pods-VPCustomAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPCustomAlertView_Tests.release.xcconfig"; path = "Target Support Files/Pods-VPCustomAlertView_Tests/Pods-VPCustomAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				D2CD740724AC83BF005C951D /* SimpleAlertViewController.swift */,
 				D2CD740924AC9030005C951D /* AlertActionAnimateViewController.swift */,
 				D2CD740B24ACA36C005C951D /* AlertFromRightViewController.swift */,
-				D2CD740D24ACB182005C951D /* AlertFromBottomViewController.swift */,
+				D2CD740D24ACB182005C951D /* AlertFromTopViewController.swift */,
 				D2CD740F24ACB811005C951D /* FromLeftToRightViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -348,7 +348,7 @@
 			files = (
 				D2CD740C24ACA36C005C951D /* AlertFromRightViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				D2CD740E24ACB182005C951D /* AlertFromBottomViewController.swift in Sources */,
+				D2CD740E24ACB182005C951D /* AlertFromTopViewController.swift in Sources */,
 				D2CD740A24AC9030005C951D /* AlertActionAnimateViewController.swift in Sources */,
 				D2CD741024ACB811005C951D /* FromLeftToRightViewController.swift in Sources */,
 				D2CD740824AC83BF005C951D /* SimpleAlertViewController.swift in Sources */,

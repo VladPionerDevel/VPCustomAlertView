@@ -31,12 +31,10 @@ class FromLeftToRightViewController: UIViewController {
             self.customAlertView.hide(animate: .popapFromBottom)
         }
     }
-    
 
     @IBAction func fromLeftTapped(_ sender: UIButton) {
         customAlertView.show(animate: .popapFromLeft)
     }
-    
     
     @IBAction func fromTopTapped(_ sender: UIButton) {
         customAlertView.show(animate: .popapFromTop)

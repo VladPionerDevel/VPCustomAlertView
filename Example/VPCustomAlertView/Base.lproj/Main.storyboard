@@ -55,7 +55,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9N-mU-3Y4">
                                         <rect key="frame" x="0.0" y="135" width="268" height="30"/>
                                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Alert from bottom">
+                                        <state key="normal" title="Alert from top">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -132,10 +132,10 @@
             </objects>
             <point key="canvasLocation" x="553" y="339"/>
         </scene>
-        <!--Alert From Bottom View Controller-->
+        <!--Alert From Top View Controller-->
         <scene sceneID="FaI-dh-F36">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Yni-0d-y6k" customClass="AlertFromBottomViewController" customModule="VPCustomAlertView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Yni-0d-y6k" customClass="AlertFromTopViewController" customModule="VPCustomAlertView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tPT-Ll-JQx"/>
                         <viewControllerLayoutGuide type="bottom" id="0Rr-eM-LSI"/>
@@ -348,6 +348,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="d3w-kV-R9q"/>
+        <segue reference="xA6-a2-6jw"/>
     </inferredMetricsTieBreakers>
 </document>

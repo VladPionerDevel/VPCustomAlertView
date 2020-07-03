@@ -30,10 +30,8 @@ class AlertActionAnimateViewController: UIViewController {
         }
     }
     
-
     @IBAction func showTapped(_ sender: UIButton) {
         customAlertView.show(animate: .popapFromBottom)
     }
     
-
 }

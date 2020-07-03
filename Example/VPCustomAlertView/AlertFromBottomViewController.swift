@@ -10,7 +10,7 @@ import UIKit
 import VPCustomAlertView
 
 @available(iOS 11.0, *)
-class AlertFromBottomViewController: UIViewController {
+class AlertFromTopViewController: UIViewController {
 
     var customAlertView: VPCustomAlertView!
 

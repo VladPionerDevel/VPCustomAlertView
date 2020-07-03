@@ -23,7 +23,6 @@ class SimpleAlertViewController: UIViewController {
         customAlertView.backgroundBlurStyle = .none
     }
     
-
     @IBAction func ShowTaped(_ sender: UIButton) {
         customAlertView.show()
     }

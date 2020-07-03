@@ -1,5 +1,5 @@
 //
-//  AlertFromRightViewController.swift
+//  AlertFromBottomViewController.swift
 //  VPCustomAlertView_Example
 //
 //  Created by pioner on 01.07.2020.
@@ -10,21 +10,21 @@ import UIKit
 import VPCustomAlertView
 
 @available(iOS 11.0, *)
-class AlertFromRightViewController: UIViewController {
+class AlertFromTopViewController: UIViewController {
 
     var customAlertView: VPCustomAlertView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        customAlertView = VPCustomAlertView(parentView: self.view, marginTop: 0, marginRight: 0, marginBottom: 0, marginLeft: 50)
+        customAlertView = VPCustomAlertView(parentView: self.view, marginTop: 0, marginRight: 0, marginBottom: 200, marginLeft: 0)
         customAlertView.isAnchorTopToSafeArea = true
-        customAlertView.isAnchorBottomToSafeArea = true
         customAlertView.isHideTapBlurBackground = false
         
-        customAlertView.addTitle(title: "Alert from right list")
-        let tableView = UITableView()
-        customAlertView.addToContainerContent(viewContent: tableView)
+        customAlertView.addTitle(title: "From Top Alert View")
+        let viewContentAlert = UIView()
+        viewContentAlert.backgroundColor = #colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1)
+        customAlertView.addToContainerContent(viewContent: viewContentAlert)
         
         customAlertView.addAction(title: "Ok") { (button) in
             print("Tapped \"\(button.titleLabel?.text ?? "")\" and hide alert")
@@ -36,9 +36,8 @@ class AlertFromRightViewController: UIViewController {
         }
     }
     
-    @IBAction func showTapped(_ sender: Any) {
-        customAlertView.show(animate: .popapFromRight)
-        customAlertView.layer.cornerRadius = 0
+    @IBAction func showTapped(_ sender: UIButton) {
+        customAlertView.show(animate: .popapFromTop)
     }
     
 }
