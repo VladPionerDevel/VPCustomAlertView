@@ -1,16 +1,16 @@
 PODS:
-  - VPCustomAlertView (1.0.0)
+  - VPCustomAlertView (1.0.2)
 
 DEPENDENCIES:
-  - VPCustomAlertView (from `../`)
+  - VPCustomAlertView
 
-EXTERNAL SOURCES:
-  VPCustomAlertView:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - VPCustomAlertView
 
 SPEC CHECKSUMS:
-  VPCustomAlertView: c1ab9294d2cead422fbb80532f4efce9c6ccfd4a
+  VPCustomAlertView: 76fd909e01873a672305186e61404ce2e5a81da0
 
-PODFILE CHECKSUM: 98091b5cd63728ef231f777862fb649c13e44378
+PODFILE CHECKSUM: 3baa7809d929de2d8db35202504f3134310e5634
 
 COCOAPODS: 1.9.3

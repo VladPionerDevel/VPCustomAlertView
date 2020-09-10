@@ -16,13 +16,7 @@ VPCustomAlertView is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-platform :ios, '11.0'
-use_frameworks!
-
-target 'VPCustomAlertView_Example' do
-  pod 'VPCustomAlertView'
-
-end
+pod 'VPCustomAlertView'
 ```
 
 ## Usage

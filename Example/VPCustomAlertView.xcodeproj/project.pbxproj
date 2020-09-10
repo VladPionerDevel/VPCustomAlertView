@@ -19,7 +19,6 @@
 		D2CD740C24ACA36C005C951D /* AlertFromRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740B24ACA36C005C951D /* AlertFromRightViewController.swift */; };
 		D2CD740E24ACB182005C951D /* AlertFromTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740D24ACB182005C951D /* AlertFromTopViewController.swift */; };
 		D2CD741024ACB811005C951D /* FromLeftToRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD740F24ACB811005C951D /* FromLeftToRightViewController.swift */; };
-		F10A6ADDDD9574CC8F76B1DA /* Pods_VPCustomAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEE58F592BD2441B6EDB502 /* Pods_VPCustomAlertView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +47,11 @@
 		607FACE51AFB9204008FA782 /* VPCustomAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPCustomAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AF5AB91C58A07321603BE639 /* Pods-VPCustomAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPCustomAlertView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VPCustomAlertView_Tests/Pods-VPCustomAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2CD740724AC83BF005C951D /* SimpleAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlertViewController.swift; sourceTree = "<group>"; };
 		D2CD740924AC9030005C951D /* AlertActionAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionAnimateViewController.swift; sourceTree = "<group>"; };
 		D2CD740B24ACA36C005C951D /* AlertFromRightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFromRightViewController.swift; sourceTree = "<group>"; };
 		D2CD740D24ACB182005C951D /* AlertFromTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFromTopViewController.swift; sourceTree = "<group>"; };
 		D2CD740F24ACB811005C951D /* FromLeftToRightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromLeftToRightViewController.swift; sourceTree = "<group>"; };
-		EDEE58F592BD2441B6EDB502 /* Pods_VPCustomAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPCustomAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F593B0FEF1B93336AB7EDD22 /* Pods-VPCustomAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPCustomAlertView_Tests.release.xcconfig"; path = "Target Support Files/Pods-VPCustomAlertView_Tests/Pods-VPCustomAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FED15FBFD7115D5572817AAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F10A6ADDDD9574CC8F76B1DA /* Pods_VPCustomAlertView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				3C8268290EEFEF3607FE4214 /* Pods_VPCustomAlertView_Example.framework */,
-				EDEE58F592BD2441B6EDB502 /* Pods_VPCustomAlertView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,8 +162,6 @@
 			children = (
 				17CB4C5D0AB0016EE2131614 /* Pods-VPCustomAlertView_Example.debug.xcconfig */,
 				4F9B7D1034A4F1EFE2802215 /* Pods-VPCustomAlertView_Example.release.xcconfig */,
-				AF5AB91C58A07321603BE639 /* Pods-VPCustomAlertView_Tests.debug.xcconfig */,
-				F593B0FEF1B93336AB7EDD22 /* Pods-VPCustomAlertView_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,7 +192,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "VPCustomAlertView_Tests" */;
 			buildPhases = (
-				D4414923B3BD4067B7422E19 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -311,28 +302,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-VPCustomAlertView_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D4414923B3BD4067B7422E19 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VPCustomAlertView_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -525,7 +494,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF5AB91C58A07321603BE639 /* Pods-VPCustomAlertView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -547,7 +515,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F593B0FEF1B93336AB7EDD22 /* Pods-VPCustomAlertView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
